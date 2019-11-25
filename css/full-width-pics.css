@@ -32,3 +32,7 @@ canvas{ display: block;}
 
    text-align: center;
 } 
+
+html {
+  scroll-behavior: smooth;
+}
