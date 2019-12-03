@@ -148,6 +148,9 @@ background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213)
   }
 
 section {
-  font-family: 'Acme', sans-serif !important;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
+h3 {
+  text-align: center !important;
+}
