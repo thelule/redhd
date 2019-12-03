@@ -113,10 +113,7 @@ a:hover {
   background-color:#E4A49F !important;
 }
 
-a:focus {
-  background-color:#E4A49F !important;
-  outline: none !important;
-}
+
 
 a:after {
   background-color:#E4A49F !important;
@@ -150,4 +147,7 @@ background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213)
   background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
   }
 
+section {
+  font-family: 'Acme', sans-serif !important;
+}
 
