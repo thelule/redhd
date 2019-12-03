@@ -155,3 +155,31 @@ h3 {
   text-align: center !important;
   padding-bottom: .5em;
 }
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center !important;
+}
+
+th {
+  background-color: rgba(167, 166, 166, 0.541);
+}
+
+td, th {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d1d1d1e7;
+}
+
+a {
+  color: chocolate;
+}
+
+a:hover {
+  color: chocolate;
+}
