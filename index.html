@@ -2,242 +2,187 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>V Encuentro</title>
-
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/full-width-pics.css" rel="stylesheet">
-
+  <link href="css/styles-rhd.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
 </head>
 
-<body>
+<body style="background-color:white;">
 <button type="button" class="btn btn-light" onclick="location.href='#';" 
 style="position: fixed; z-index: 100;  font-size:x-large; bottom: 10px; right: 10px;">
 <svg id="i-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-  <path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" />
+  <path d="M12 20 L12 |30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" />
 </svg>
 </button>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-gray">
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-      <div class="container">
 
-          <img src="vendor/imgs/ojo.png" 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="font-family: 'Acme', sans-serif; background-color:#EFB3A4 !important;">
+    <div class="container">
+      <img src="vendor/imgs/ojo.png" 
           style="display:block;
           margin:auto;"
-          width="320" height="140" 
+          width="160" height="70" 
           alt="Red de Humanidades Digitales Logo" 
           class="fusion-standard-logo" />
-  
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive" style="vertical-align:super; font-size:x-large;">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#propuestas" style="outline: none !important;">Propuestas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#evento" style="outline: none !important;">Evento</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#convocatoria" style="outline: none !important;">Registro</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sede" style="outline: none !important;">Sede</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto" style="outline: none !important;">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-  </nav>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-    <!-- Header - set the background image for the header in the line below -->
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-            <img src="vendor/imgs/uaq.png" 
-            class=img-fluid
-            style="
-               -webkit-background-size: cover;
-               -moz-background-size: cover;
-               -o-background-size: cover;
-               background-size: cover;               
-               height: 100%;
-               width: 100% ;
-               opacity: .5;
-            " />
-        </div>
-        <div class="col-6">
-            <div id="particles-js"><p style="position:absolute;"></p></div> 
-
+      <div class="collapse navbar-collapse" id="navbarResponsive"
+      style="vertical-align:super; font-size:x-large;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a> 
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle caret-off" href="#" 
+            id="navbarDropdown" role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">
+            Evento
+            </a>
+              <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown" style="background-color:#EFB3A4; color: wheat;">
+                <a class="dropdown-item" href="#">Información</a>
+                <a class="dropdown-item" href="#">Descripción</a>
+                <a class="dropdown-item" href="#">A quién va dirigido</a>
+                <a class="dropdown-item" href="#">Temática</a>
+                <a class="dropdown-item" href="#">Comite académico</a>
+                <a class="dropdown-item" href="#">Comite organizador</a>
+                <a class="dropdown-item" href="#">Fechas importantes</a>
             </div>
-        <div class="col-3">
-            <img src="vendor/imgs/unam.svg" 
-            class=img-fluid
-            style="
-               -webkit-background-size: cover;
-               -moz-background-size: cover;
-               -o-background-size: cover;
-               background-size: cover;
-               height: 100%;
-               width: 100% ;
-               opacity: .5;
-            " />
-        </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link rounded-lg" href="#">Propuestas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Programa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hospedaje</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="container">
+      <img src="vendor/imgs/banner5e.jpg" 
+      class="img-fluid rounded-lg"
+      style="
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;             
+         height: 100%;
+         width: 100% ;
+         opacity: .6;
+      " />
+  </section>
 
 
   <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
+  <section style="margin-top:0px; background: linen;">
+    <div class="container" style="color: #8F6964;">
       <h1 style="text-align: center;">Convocatoria </h1>
       <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
       <p>
-          Este V Encuentro busca explorar el avance en las discusiones, los proyectos y las iniciativas que combinan estudios en las áreas de las humanidades o la ciencias sociales, que utilizan o bien analizan los medios digitales, con especial interés en aquellas que se orientan hacia las culturas locales en el espacio latinoamericano.
-          ¿A quién va dirigido este Encuentro?
-          Investigadores, profesores, estudiantes, bibliotecarios, tecnólogos y público en general que deseen presentar avances o resultados de sus proyectos en Humanidades Digitales. Humanistas e Informáticos que han creado o utilizado la tecnología como una de sus principales herramientas en los estudios humanísticos, culturales y sociales.
-          El objetivo es que asistan personas interesadas en el debate sobre los grandes avances y el futuro de la digitalización en los estudios humanísticos y sociales.
-          
-          Temáticas del encuentro
-              • Memoria, patrimonio y tecnología
-              • Docencia y Humanidades Digitales. Pedagogía de las Humanidades Digitales. Uso y aplicaciones de cómputo para la enseñanza en las Humanidades.
-              • Proyectos de recursos para las humanidades: por ejemplo, marcado de textos, museos digitales, ediciones críticas digitales y tecnologías avanzadas para las Humanidades y las Ciencias sociales.
-              • Diseño, manejo y uso de recursos digitales para las Humanidades y las Ciencias Sociales. Repositorios, bibliotecas digitales, bases de datos, big data, linked open data, visualizaciones, etcétera.
-              • Representación, igualdad de acceso, traducción, impacto, colaboración internacional y aprendizaje mutuo dentro del área de las Humanidades Digitales.
-              • Las redes como herramientas de investigación en Humanidades y Ciencias Sociales.
-              • Métodos de investigación digital, Ingeniería lingüística, literatura electrónica, Medias, transmedias, transversalidad de lo digital, teoría de videojuegos
-              • Cambios en la comunicación y publicación académica en ambientes digitales. Libros electrónicos, colecciones digitales, revistas digitales, acceso abierto.
-              • Historia Digital
-              • Las bibliotecas y las Humanidades Digitales.
-          Esta lista no es restrictiva. Las propuestas de otras temáticas serán consideradas.
+
       </p>
       
     </div>
   </section>
 
-  <!-- Image Section - set the background image for the header in the line below -->
-  <section class="py-5 bg-image-full" style="background-image: url('vendor/imgs/divisor2.jpg'); opacity: 0.25;");">
-    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-    <div style="height: 100px;"></div>
-  </section>
-
-  <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-        <h1 style="text-align: center;" id="propuestas">Propuestas</h1>
-        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
-      <p>
-          ¿Cómo enviar propuestas?
-
-          Para enviar su propuesta debe crear una cuenta en EasyChair (en inglés). Una vez que su cuenta sea activada puede enviar la propuesta usando el sistema de EasyChair y seguir las instrucciones de esta convocatoria. Si tiene alguna pregunta, envíenos un mensaje a encuentrohd@gmail.com
-          La fecha límite para enviar propuestas es el 1 febrero de 2020.  
-          Tipos de presentación:
-              • Ponencias. Plática en forma tradicional con duración de 20 minutos, seguida por una breve sesión de preguntas y respuestas. Las ponencias se agruparán en mesas redondas de acuerdo con las temáticas.
-              • Posters/Demos. Las presentaciones en este formato póster pueden incluir cualquier trabajo o investigación en curso, presentaciones de proyectos o de software.
-              • Panel. Los grupos de trabajo pueden proponer un panel temático con un mínimo de 3 ponencias y un máximo de 4 ponencias por panel.
-              • ¿Talleres?
-          Formato para las propuestas:
-          
-          Para las participaciones se deberá enviar un resumen de máximo 51000 palabras e indicar el tipo de participación (panel, ponencia, póster, demo) antes del título de la participación (p. ej.: (demo) Presentación de la herramienta X; (panel) Las tecnologías en las humanidades, (ponencia) LATAM HD). Para los paneles se debe enviar un resumen general del panel de máximo 51000 palabras y una descripción de máximo 30500 palabras por ponencia incluida en el panel.
-          
-          Para todas las participaciones se debe indicar, en la herramienta, el nombre de los autores y sus adscripciones. Cualquier resumen que cuente con identificación de los autores, será descartado para el proceso de dictaminación.
-          Pasos a seguir:
-              • Crear cuenta en easychair
-              • Iniciar el proceso de envío
-              • Indicar nombre y adscripción de todos los autores
-              • Indicar tipo de participación antes del título de la misma (póster, panel, ponencia, taller)
-              • Indicar el/los tema/s de la participación
-              • Anonimizar documentos adjuntos y/o texto en la casilla destinada a ello
-          
-          Fechas importantes
-          
-              • Fecha límite para el envío de propuestas: 1 de febrero 2020
-              • Fecha de notificación de resultados: 2 de marzo 2020
-              • Registro: 15 de marzo a mayo 2020
-              • Evento: 18 al 22 de mayo 2020
-      </p>
-    </div>
-  </section>
-
-  <!-- Image Section - set the background image for the header in the line below -->
-  <section class="py-5 bg-image-full" style="background-image: url('vendor/imgs/divisor2.jpg'); opacity: 0.25;");></section>
-
-  <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-      <h1  id="evento">Evento</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>
-
-      </p>
-    </div>
-  </section>
-
-    <!-- Image Section - set the background image for the header in the line below -->
-    <section class="py-5 bg-image-full" style="background-image: url('vendor/imgs/divisor2.jpg'); opacity: 0.25;");">
-      <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-      <div style="height: 100px;"></div>
-    </section>
-  
     <!-- Content section -->
-    <section class="py-5">
-      <div class="container">
-        <h1 id="registro">Registro</h1>
+  <section style="margin-top:0px;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p style="text-align:justify;">
+
+        </p>
+        
+      </div>
+  </section>
+
+  <!-- Content section -->
+  <section style="margin-top:0px; background: linen;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <p>
   
         </p>
+        
       </div>
-    </section>
+  </section>
+  
+      <!-- Content section -->
+  <section style="margin-top:0px;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p style="text-align:justify;">
 
-      <!-- Image Section - set the background image for the header in the line below -->
-  <section class="py-5 bg-image-full" style="background-image: url('vendor/imgs/divisor2.jpg'); opacity: 0.25;");">
-    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-    <div style="height: 100px;"></div>
+        </p>
+        
+      </div>
   </section>
 
   <!-- Content section -->
-  <section class="py-5">
-    <div class="container">
-      <h1 id="sede">Sede</h1>
-      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>
+  <section style="margin-top:0px; background: linen;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>
+  
+        </p>
+        
+      </div>
+  </section>
+  
+  <!-- Content section -->
+  <section style="margin-top:0px;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p style="text-align:justify;">
 
-      </p>
-    </div>
+        </p>
+        
+      </div>
   </section>
 
-        <!-- Image Section - set the background image for the header in the line below -->
-        <section class="py-5 bg-image-full" style="background-image: url('vendor/imgs/divisor2.jpg'); opacity: 0.25;");">
-          <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-          <div style="height: 100px;"></div>
-        </section>
-      
-        <!-- Content section -->
-        <section class="py-5">
-          <div class="container">
-            <h1 id="contacto">Contacto</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>
-      
-            </p>
-          </div>
-        </section>
+  <!-- Content section -->
+  <section style="margin-top:0px; background: linen;">
+      <div class="container" style="color: #8F6964;">
+        <h1 style="text-align: center;">Convocatoria </h1>
+        <h3 style="text-align: center;">V Encuentro de Humanidades Digitales 2020</h3>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>
+  
+        </p>
+        
+      </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -247,10 +192,8 @@ style="position: fixed; z-index: 100;  font-size:x-large; bottom: 10px; right: 1
     <!-- /.container -->
   </footer>
 
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/bootstrap/js/particles.min.js"></script> 
   <script src="vendor/bootstrap/js/particles.js"></script>
 
