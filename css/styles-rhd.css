@@ -15,6 +15,7 @@ body {
   -o-background-size: cover;
 }
 
+
 canvas{ display: block;} 
 
 /* ---- particles.js container ---- */ 
@@ -112,6 +113,16 @@ a:hover {
   background-color:#E4A49F !important;
 }
 
+a:focus {
+  background-color:#E4A49F !important;
+  outline: none !important;
+}
+
+a:after {
+  background-color:#E4A49F !important;
+  outline: none !important;
+}
+
 .dropdown-item {
   color: #A18381;
 }
@@ -119,3 +130,24 @@ a:hover {
 .nav-link {
   outline: none !important;
 }
+
+p {
+  text-align: justify !important;
+}
+
+.hospedaje > p{
+  text-align: center !important;
+}
+
+
+.gradiente {
+background: rgba(255,255,255,1);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213) 24%, rgb(250, 199, 199) 44%, rgb(248, 153, 153) 100%);
+}
+
+.gradiente-i {
+  background: rgba(255,255,255,1);
+  background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
+  }
+
+
