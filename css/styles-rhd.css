@@ -147,6 +147,11 @@ background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213)
   background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
   }
 
+.gradiente-li {
+  background: rgba(255,255,255,1);
+  background: linear-gradient(to right, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
+  }
+
 section {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -163,7 +168,7 @@ table {
 }
 
 th {
-  background-color: rgba(167, 166, 166, 0.541);
+  background-color: rgba(250, 218, 218, 0.541);
 }
 
 td, th {
@@ -173,7 +178,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #d1d1d1e7;
+  background-color: #f0e6e6e7;
 }
 
 a {
@@ -182,4 +187,9 @@ a {
 
 a:hover {
   color: chocolate;
+  text-decoration: none;
+}
+
+.lista-comite {
+  background-color: rgb(241, 205, 195);
 }
