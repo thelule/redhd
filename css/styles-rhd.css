@@ -94,7 +94,7 @@ a:active {
 }
 
 a:hover {
-  background-color:#E4A49F !important;
+  background-color:rgb(248, 243, 242);
 }
 
 
@@ -128,7 +128,7 @@ background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213)
 
 .gradiente-i {
   background: rgba(255,255,255,1);
-  background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
+  background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(250, 240, 238, 0.801) 80%); 
   }
 
 .gradiente-li {
@@ -173,6 +173,7 @@ a:hover {
   color: chocolate;
   text-decoration: none;
 }
+
 
 .lista-comite {
   background-color: rgb(241, 205, 195);
