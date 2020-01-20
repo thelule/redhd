@@ -90,7 +90,7 @@ html {
 }
 
 a:active {
-  background-color:#EFB3A4 !important;
+  background-color:rgb(113, 46, 236) !important;
 }
 
 a:hover {
@@ -98,7 +98,7 @@ a:hover {
 }
 
 a:after {
-  background-color:#E4A49F !important;
+  background-color:rgb(159, 172, 228) !important;
   outline: none !important;
 }
 
@@ -121,17 +121,27 @@ p {
 
 .gradiente {
 background: rgba(255,255,255,1);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgb(253, 213, 213) 24%, rgb(250, 199, 199) 44%, rgb(248, 153, 153) 100%);
+background: linear-gradient(to right, 
+          rgb(163, 142, 255) 0%, 
+          rgb(203, 196, 241) 30%, 
+          rgb(203, 196, 241) 80%,
+          rgb(192, 180, 248) 100%);
 }
 
 .gradiente-i {
   background: rgba(255,255,255,1);
-  background: linear-gradient(to left, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(250, 240, 238, 0.801) 80%); 
+  background: linear-gradient(to left, 
+            rgb(229, 220, 250) 20%, 
+            rgba(255, 255, 255, 0.664) 50%, 
+            rgb(229, 220, 250, 0.801) 80%); 
   }
 
 .gradiente-li {
   background: rgba(255,255,255,1);
-  background: linear-gradient(to right, rgb(243, 233, 232) 20%, rgba(255, 231, 230, 0.664) 50%, rgba(247, 220, 217, 0.801) 80%); 
+  background: linear-gradient(to right, 
+            rgb(241, 227, 255) 20%, 
+            rgba(229, 220, 250, 0.664) 50%, 
+            rgba(241, 227, 255, 0.801) 80%); 
   }
 
 section {
@@ -150,7 +160,7 @@ table {
 }
 
 th {
-  background-color: rgba(250, 218, 218, 0.541);
+  background-color: rgba(178, 145, 255, 0.541);
 }
 
 td, th {
@@ -160,23 +170,38 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #f0e6e6e7;
+  background-color: #c5b7eb;
 }
 
 a {
-  color: chocolate;
+  color: #9C00E5;
 }
 
 a:hover {
-  color: chocolate;
+  color: rgb(183, 76, 233);
   text-decoration: none;
 }
 
 
 .lista-comite {
-  background-color: rgb(241, 205, 195);
+  background-color: rgb(223, 195, 241);
 }
 
 h1 {
   padding-top: 3%;
+  color: rgb(113, 46, 129);
 }
+
+
+.container {
+  color: rgb(110, 101, 116) !important;
+}
+
+::selection {
+  color: rgb(5, 4, 5);
+  background: #dddbee;
+}
+
+/* #D70035
+#2800E5
+#9C00E5 */
