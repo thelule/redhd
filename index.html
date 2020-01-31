@@ -11,9 +11,16 @@
   <link href="css/styles-rhd.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap" rel="stylesheet"> 
+  <script language="javascript">
+    function abrir()
+     {
+         window.open('aviso.html','window','status=no,help=no,Width=500,Height=350');
+     }
+  </script> 
 </head>
 
-<body>
+<body onload="abrir();"> 
+
     <button type="button" class="btn btn-dark" onclick="location.href='#';" 
     style="position: fixed; z-index: 100;  font-size:x-large; bottom: 10px; right: 10px;">
     <svg id="i-home" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -21,8 +28,8 @@
     </svg>
     </button>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" 
-  style="font-family: 'Source Sans Pro', sans-serif; background-color: aliceblue; ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top gradiente" 
+  style="font-family: 'Source Sans Pro', sans-serif; ">
     <div class="container">
       <img src="vendor/imgs/ojo.png" 
           style="display:block;
@@ -91,6 +98,10 @@
             >          Descarga
           </a>
       </h1>
+      <hr style="border: 0; height: 0; box-shadow: 0 1px 3px 1px rgb(59, 61, 98); text-align: center;"/><br>
+      <h3 ><b><u>Aviso</u></b></h3>
+      <h3>Se extiende la fecha de entrega de propuestas de ponencia</h3>
+      <h3>hasta el día 10 de febrero del 2020</h3>
 
 
       <hr style="border: 0; height: 0; box-shadow: 0 1px 3px 1px rgb(59, 61, 98); text-align: center;"/><br>
@@ -307,7 +318,7 @@
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
           <table>
-              <tr>
+              <tr style="background-color: aliceblue;">
                 <th></th>
                 <th>Costo</th>
               </tr>
